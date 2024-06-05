@@ -1,0 +1,4 @@
+resources:
+  - test-clone-build-push-test-repo-j77jyk-buildconfig.yaml
+  - test-git-repo-github-com-secret.yaml
+  - test-web-hook-test-repo-j77jyk-secret.yaml

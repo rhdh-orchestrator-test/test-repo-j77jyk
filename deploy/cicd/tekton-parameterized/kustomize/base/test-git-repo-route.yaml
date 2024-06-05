@@ -1,0 +1,25 @@
+
+---
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+    creationTimestamp: null
+    labels:
+        move2kube.konveyor.io/service: test-git-repo
+    name: test-git-repo
+spec:
+    host: qe.lab.redhat.com
+    path: /el-test-git-repo
+    port:
+        targetPort: port-8080
+    tls:
+        termination: passthrough
+    to:
+        kind: Service
+        name: test-git-repo
+        weight: 1
+status:
+    ingress:
+        - {}
+
+...

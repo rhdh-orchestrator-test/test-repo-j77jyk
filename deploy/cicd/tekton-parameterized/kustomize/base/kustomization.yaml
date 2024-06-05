@@ -1,0 +1,12 @@
+resources:
+  - test-clone-build-push-pipeline.yaml
+  - test-git-event-triggerbinding.yaml
+  - test-git-repo-eventlistener.yaml
+  - test-git-repo-route.yaml
+  - test-run-clone-build-push-triggertemplate.yaml
+  - test-tekton-triggers-admin-rolebinding.yaml
+  - test-tekton-triggers-admin-serviceaccount.yaml
+  - test-clone-push-serviceaccount.yaml
+  - test-git-repo-github-com-secret.yaml
+  - test-image-registry-secret.yaml
+  - test-tekton-triggers-admin-role.yaml
