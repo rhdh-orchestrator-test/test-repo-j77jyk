@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-repo-j77jyk
+  description: test-repo-j77jyk description
+  annotations:
+    backstage.io/kubernetes-namespace: orchestrator-gitops
+    backstage.io/kubernetes-id: test-repo-j77jyk-ci
+    janus-idp.io/tekton: test-repo-j77jyk
+    github.com/project-slug: rhdh-orchestrator-test/test-repo-j77jyk
+spec:
+  type: workflow-project
+  system: system:default/janus-orchestrator
+  lifecycle: development
+  owner: user:default/guest
