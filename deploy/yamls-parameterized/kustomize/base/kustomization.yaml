@@ -1,0 +1,5 @@
+resources:
+  - test-repo-j77jyk-service.yaml
+  - test-repo-j77jyk-deployment.yaml
+  - test-repo-j77jyk-latest-imagestream.yaml
+  - test-repo-j77jyk-route.yaml
