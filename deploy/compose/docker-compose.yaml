@@ -1,0 +1,8 @@
+version: "3.5"
+services:
+  test-repo-j77jyk:
+    container_name: test-repo-j77jyk
+    image: quay.io/test/test-repo-j77jyk:latest
+    ports:
+      - target: 8080
+        published: 8080
