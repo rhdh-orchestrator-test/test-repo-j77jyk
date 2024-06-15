@@ -1,0 +1,9 @@
+patches:
+  - path: apps-v1-deployment-test-repo-j77jyk.yaml
+    target:
+      group: apps
+      version: v1
+      kind: Deployment
+      name: test-repo-j77jyk
+resources:
+  - ../../base
