@@ -1,0 +1,4 @@
+resources:
+  - flight-path-auto-tests-web-hook-test-repo-j77jyk-secret.yaml
+  - flight-path-auto-tests-clone-build-push-test-repo-j77jyk-buildconfig.yaml
+  - flight-path-auto-tests-git-repo-github-com-secret.yaml
